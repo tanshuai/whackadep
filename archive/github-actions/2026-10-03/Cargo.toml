@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "depdive",
+    "web-backend/metrics",
+    "web-backend/ui",
+]

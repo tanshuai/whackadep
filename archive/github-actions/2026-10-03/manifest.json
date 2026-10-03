@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "repository": "tanshuai/whackadep",
+  "repository_id": 465540247,
+  "date": "2026-10-03",
+  "source_sha": "1dd1e79b1fab10c35ebeb71cb54025a5527e9163",
+  "entries": [
+    {
+      "original_path": ".github/workflows/ci.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/ci.yml",
+      "source_blob_sha": "126a13e04b63ff6a09595fcebe07334e60c202a4",
+      "sha256": "899cadbd5a9ece453dd6c3d85b99abfc737a5e3073029b1fa0f7b14196737982",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from diem/whackadep",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-006"
+      ],
+      "secret_names": [
+        "GITHUB_TOKEN"
+      ],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    }
+  ],
+  "code_and_dependency_snapshots": [
+    {
+      "original_path": "Cargo.lock",
+      "archived_path": "archive/github-actions/2026-10-03/Cargo.lock",
+      "source_blob_sha": "e9c11e6708b0a7b3f1e484a5b32b4e8e73cf9aab",
+      "sha256": "55d128bf2c245d966516490c82bc84e5105102b374f2322d3bc07584db463d53",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": "Cargo.toml",
+      "archived_path": "archive/github-actions/2026-10-03/Cargo.toml",
+      "source_blob_sha": "fc7080798ea12671cb182ca073281df50f83497a",
+      "sha256": "740b341905272e11b2aa23d88e351cfcd22eeed28a9fa1d041442312d7fabc82",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": "Makefile",
+      "archived_path": "archive/github-actions/2026-10-03/Makefile",
+      "source_blob_sha": "8c7af1308eec67c8dc5a5924579ec979f50da908",
+      "sha256": "1f163971bf752182bd764b900fa7f9260ebaef104a79c24ba8a5448d91f7f58c",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    }
+  ],
+  "upstream_preflight": {
+    "parent": "diem/whackadep",
+    "source_sha": "1dd1e79b1fab10c35ebeb71cb54025a5527e9163",
+    "ahead_by": 0,
+    "behind_by": 0,
+    "status": "identical",
+    "retained_runs": 0,
+    "semantic_note": "Current entrypoints reviewed individually; only inherited upstream CI/tests/releases/doc generators, no custom fork commits or live production consumer identified. No repository Actions enabling or passive alert changes."
+  },
+  "caller_check": {
+    "current_all_accessible_workflows": 286,
+    "remaining_reusable_callers": [],
+    "external_dispatch_note": "Declared dispatch/manual entrypoints recorded; entire retired source preserved. No dispatch APIs were invoked."
+  },
+  "passive_security_alerts": "No alert setting changed. Archived version-update YAML is no longer active configuration.",
+  "rollback": "Reviewed source restoration plus explicit workflow enablement; for unsafe cross-repository publishers establish an updated producer/consumer contract and guarded destination before restoring."
+}
